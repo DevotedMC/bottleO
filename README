@@ -1,0 +1,27 @@
+bottleO is an old project.
+
+It allows a user to walk up to an enchanting table, smack it with glass bottles in hand, and transfer XP stored on the player, into experience bottles.
+
+Additionally, it adds a recipe allowing bottled experience to be turned into emerald blocks.
+
+We need the following immediate changes:
+
+1. Update to spigot-1.8.8
+
+2. Remove the emerald recipe.
+
+3. Set a lower baseline of xp conversion. Only half of the xp in a player's inventory should be stored.
+
+---
+
+We need the following optional and desired changes:
+
+1. Recognize a custom enchantment table with lore. (Made in recipemanager)
+
+2. Allow these custom enchantment tables to change the xp conversion baseline at that station.
+
+3. Allow an incremental, exponentially decreasing addition of xp conversion based on amount of bottles bottled at the station.
+
+4. Store that baseline increment in lore.
+
+5. Allow the mining, and theft, of enchantement table with lore and baseline xp intact (subtracting let's say 1% to discourage movement of the table).
